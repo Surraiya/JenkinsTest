@@ -1,0 +1,8 @@
+{
+  "clickButtonText": "You clicked a button",
+  "confirmBoxText": "Do you confirm action?",
+  "okButtonText": "You selected Ok",
+  "promptBoxText": "Please enter your name",
+  "nameMinLength": 5,
+  "nameMaxLength": 10
+}

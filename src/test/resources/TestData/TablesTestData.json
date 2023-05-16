@@ -1,0 +1,19 @@
+[
+  {
+    "FirstName": "Jon",
+    "LastName": "Snow",
+    "Email": "knownothing@gmail.com",
+    "Age": 30,
+    "Salary": 3000,
+    "Department": "alpha"
+  },
+
+  {
+    "FirstName": "Buttercup",
+    "LastName": "Cumbersnatch",
+    "Email": "BudapestCandygram@mail.io",
+    "Age": 41,
+    "Salary": 2000,
+    "Department": "beta"
+  }
+]
