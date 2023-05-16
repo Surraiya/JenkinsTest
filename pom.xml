@@ -120,6 +120,10 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <browser>${browser}</browser>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>

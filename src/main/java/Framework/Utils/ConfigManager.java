@@ -39,6 +39,9 @@ public class ConfigManager {
     public static String getBrowser() {
         return browser;
     }
+    public static String getBrowserFromSystemProperty() {
+        return System.getProperty("browser");
+    }
 
     public static String getUrl() {
         return url;

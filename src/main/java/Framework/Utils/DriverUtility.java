@@ -13,7 +13,7 @@ public class DriverUtility {
 
         if (driver == null) {
             LoggerUtil.info("Driver is: "+ driver);
-            BrowserFactory factory = BrowserFactory.getFactory(ConfigManager.getBrowser());
+            BrowserFactory factory = BrowserFactory.getFactory(ConfigManager.getBrowserFromSystemProperty());
             driver = factory.createWebDriver(ConfigManager.getOptions());
         }
         LoggerUtil.info("Driver is now: " + driver);
